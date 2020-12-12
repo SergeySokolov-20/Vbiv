@@ -1,0 +1,114 @@
+@media screen and (max-width: 1350px) {
+  .slider .slick-arrow.slick-prev {
+    left: 0;
+  }
+  .slider .slick-arrow.slick-next {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .container {
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .absolute-div {
+    display: none;
+  }
+  .absolute-div-2 {
+    display: none;
+  }
+  .why-wrapper {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .slider .slick-arrow.slick-prev {
+    display: none !important;
+  }
+  .slider .slick-arrow.slick-next {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    display: block;
+  }
+  .header__logo {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__list {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+    margin-left: -30px;
+  }
+  .first__link-wrapper {
+    margin-top: 100px;
+  }
+  .slider {
+    padding: 0px 0px;
+  }
+  .first__title {
+    font-size: 50px;
+  }
+  .first__subtitle {
+    font-size: 20px;
+  }
+  .log-slide {
+    height: 300px;
+  }
+  .pricelist__item {
+    display: block;
+    text-align: center;
+  }
+  .pricelist__prod-name {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .pricelist__prod-price {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+  .pricelist__prod-title {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .pricelist__prod-walue {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+  .pay__title {
+    font-size: 50px;
+  }
+  .pay__bitcoin {
+    display: block;
+    text-align: center;
+  }
+  .pay__bitcoin-bill {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .pay__qiwi {
+    display: block;
+    text-align: center;
+  }
+  .pay__qiwi-bill {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .neon-button {
+    padding: 5px 25px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
